@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Candelion", "BasierCircle", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Candelion";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Candelion"),
+    url(./assets/fonts/Candelion-regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "Candelion";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Candelion"),
+    url(./assets/fonts/Candelion-regular2.otf) format("opentype");
+}
+@font-face {
+  font-family: "Candelion";
+  font-style: bold;
+  font-weight: 600;
+  src: local("Candelion"),
+    url(./assets/fonts/Candelion-bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Candelion";
+  font-style: bold;
+  font-weight: 600;
+  src: local("Candelion"),
+    url(./assets/fonts/Candelion-bold2.otf) format("opentype");
+}
+@font-face {
+  font-family: "Candelion";
+  font-style: bold;
+  font-weight: 700;
+  src: local("Candelion"),
+    url(./assets/fonts/Candelion-rough.otf) format("opentype");
+}
+@font-face {
+  font-family: "Candelion";
+  font-style: bold;
+  font-weight: 700;
+  src: local("Candelion"),
+    url(./assets/fonts/Candelion-rough2.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierCircle";
+  font-style: italic;
+  font-weight: normal;
+  src: local("BasierCircle-Italic"),
+    url(./assets/fonts/Basier-Circle-Regular-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierCircle";
+  font-style: normal;
+  font-weight: 700;
+  src: local("BasierCircle-Bold"),
+    url(./assets/fonts/Basier-Circle-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierCircle";
+  font-style: italic;
+  font-weight: 700;
+  src: local("BasierCircle-Bold-Italic"),
+    url(./assets/fonts/Basier-Circle-Bold-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierCircle";
+  font-style: normal;
+  font-weight: 600;
+  src: local("BasierCircle-Semibold"),
+    url(./assets/fonts/Basier-Circle-SemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierCircle";
+  font-style: italic;
+  font-weight: 600;
+  src: local("BasierCircle-Semibold-Italic"),
+    url(./assets/fonts/Basier-Circle-SemiBold-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierCircle";
+  font-style: normal;
+  font-weight: 500;
+  src: local("BasierCircle-Medium"),
+    url(./assets/fonts/Basier-Square-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierCircle";
+  font-style: italic;
+  font-weight: 500;
+  src: local("BasierCircle-Medium-Italic"),
+    url(./assets/fonts/Basier-Circle-Medium-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierSquare";
+  font-style: normal;
+  font-weight: normal;
+  src: local("BasierSquare"),
+    url(./assets/fonts/Basier-Square-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierSquare";
+  font-style: italic;
+  font-weight: normal;
+  src: local("BasierSquare-Italic"),
+    url(./assets/fonts/Basier-Square-Regular-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierSquare";
+  font-style: normal;
+  font-weight: 700;
+  src: local("BasierSquare-Bold"),
+    url(./assets/fonts/Basier-Square-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierSquare";
+  font-style: italic;
+  font-weight: 700;
+  src: local("BasierSquare-Bold-Italic"),
+    url(./assets/fonts/Basier-Square-Bold-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierSquare";
+  font-style: normal;
+  font-weight: 600;
+  src: local("BasierSquare-Semibold"),
+    url(./assets/fonts/Basier-Square-SemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierSquare";
+  font-style: italic;
+  font-weight: 600;
+  src: local("BasierSquare-Semibold-Italic"),
+    url(./assets/fonts/Basier-Square-SemiBold-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierSquare";
+  font-style: normal;
+  font-weight: 500;
+  src: local("BasierSquare-Medium"),
+    url(./assets/fonts/Basier-Square-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BasierSquare";
+  font-style: italic;
+  font-weight: 500;
+  src: local("BasierSquare-Medium-Italic"),
+    url(./assets/fonts/Basier-Square-Medium-Italic.otf) format("opentype");
+}
