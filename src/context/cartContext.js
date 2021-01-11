@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 
 export const CartContext = React.createContext([]);
@@ -9,6 +10,7 @@ export const CartProvider = (props) => {
 
   const calculateProductsAmount = () => {
     let currentProducts = 0;
+    // eslint-disable-next-line
     cart.map(product => {
       currentProducts += product.amount;
     })
@@ -18,6 +20,7 @@ export const CartProvider = (props) => {
 
   const calculateOrderPrice = () => {
     let currentPrice = 0;
+    // eslint-disable-next-line
     cart.map(product => {
       console.log('product.price', product);
       currentPrice += product.price * product.amount;

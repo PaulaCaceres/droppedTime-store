@@ -1,16 +1,17 @@
-import React from 'react';
-import { withStyles, Button, Card, Typography, CardActionArea, CardActions, CardContent, CardMedia } from "@material-ui/core";
+/* eslint-disable react/prop-types */
+import React from "react";
+import {
+  withStyles,
+  Button,
+  Card,
+  Typography,
+  CardActionArea,
+  CardContent,
+} from "@material-ui/core";
 import { styles } from "./styles";
 
 const ItemRaw = (props) => {
-
-  const {
-    classes,
-    img,
-    title,
-    description,
-    onClick = () => { },
-  } = props;
+  const { classes, img, title, description } = props;
 
   return (
     <Card className={classes.mainContainer}>
@@ -25,7 +26,6 @@ const ItemRaw = (props) => {
           </Typography>
         </CardContent>
         <Button size="small">More details</Button>
-
       </CardActionArea>
     </Card>
   );
